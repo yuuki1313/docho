@@ -1,188 +1,400 @@
-﻿@charset "UTF-8";
-body {
-    font-weight: 1.5;
-    color: #333;
-    font-family: "游ゴシック"； background-color: #fff7f8;
-}
-
-
-/* ここからheader */
-
-#header {
-    position: absolute;
-    width: 100%;
-}
-
-.inner {
-    width: 940px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.header-logo {
-    padding: 40px 0;
-    float: left;
-}
-
-.global-nav {
-    float: right;
-    position: relative;
-    top: 40px;
-}
-
-.global-nav ul {
-    overflow: hidden;
-}
-
-.global-nav li {
-    list-style-type: none;
-    float: left;
-    margin-right: 80px;
-}
-
-.global-nav li:last-child {
-    list-style-type: none;
-    float: left;
-    margin-right: 0;
-}
-
-.global-nav a {
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-}
-
-.global-nav a:hover {
-    color: #e25a65;
-    border-bottom: 1px solid #e25a65;
-}
-
-#mv {
-    height: 600px;
-    background: url(../img/hd-header-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-.mv-title {
-    padding-top: 247px;
-}
-
-.flyabout {
-    width: 69px;
-    height: 65px;
-    display: inline-block;
-    margin: 81px 0;
-    text-indent: -9999px;
-    background: url(../img/hd-header-02.png);
-    background-repeat: no-repeat;
-}
-
-
-/* ここからABOUT */
-
-#top-about {
-    padding: 116px 0 80px 0;
-    background-color: #f77e88;
-    text-align: center;
-}
-
-.about-title {
-    margin-bottom: 16px;
-    text-align: center;
-    line-height: 1;
-    color: #fff;
-}
-
-.about-title-en {
-    font-size: 48px;
-    display: block;
-}
-
-.about-tilte-jp {
-    font-size: 16px;
-    display: block;
-    font-weight: lighter;
-    margin-bottom: 40px;
-}
-
-.about-txt {
-    width: 681px;
-    height: 192px;
-    text-align: center;
-}
-
-.about-image {
-    margin-top: 81px;
-    overflow: hidden;
-}
-
-.about-whatdocho {
-    width: 450px;
-    float: left;
-}
-
-.about-whatdocho-txt {
-    margin-bottom: 16px;
-    font-weight: bold;
-}
-
-.about-whatdocho-jp {
-    margin-bottom: 16px;
-    font-weight: bold;
-}
-
-.about-kankodocho {
-    width: 450px;
-    float: right;
-}
-
-.about-kankodocho-jp {
-    margin-bottom: 16px;
-    font-weight: bold;
-}
-
-.about-whatdocho-lead,
-.about-kankodocho-lead {
-    margin-bottom: 16px;
-}
-
-
-/* ここからEVENT */
-
-#top-event {
-    padding: 116px 0 80px 0;
-    text-align: center;
-}
-
-.about-title-en {
-    font-size: 48px;
-}
-
-.event-tilte-jp {
-    font-weight: bold;
-}
-
-.event-link li {
-    list-style-type: none;
-    margin-right: 85px;
-    float: left;
-}
-
-.event-link li:last-child {
-    margin-right: 0;
-}
-
-.event-link a {
-    text-indent: -9999px;
-}
-
-#top-news {}
-
-#top-gallary {}
-
-#top-access {}
-
-#footer {}
+﻿        @charset "UTF-8";
+        body {
+            font-weight: 1.5;
+            color: #333;
+            font-family: "游ゴシック"； background-color: #fff7f8;
+        }
+        /* ここからheader */
+        
+        #header {
+            position: absolute;
+            width: 100%;
+        }
+        
+        .inner {
+            width: 940px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        .header-logo {
+            padding: 40px 0;
+            float: left;
+        }
+        
+        .global-nav {
+            float: right;
+            position: relative;
+            top: 40px;
+        }
+        
+        .global-nav ul {
+            overflow: hidden;
+        }
+        
+        .global-nav li {
+            list-style-type: none;
+            float: left;
+            margin-right: 80px;
+        }
+        
+        .global-nav li:last-child {
+            list-style-type: none;
+            float: left;
+            margin-right: 0;
+        }
+        
+        .global-nav a {
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .global-nav a:hover {
+            color: #e25a65;
+            border-bottom: 1px solid #e25a65;
+        }
+        
+        #mv {
+            height: 600px;
+            background: url(../img/hd-header-03.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        
+        .mv-title {
+            padding-top: 247px;
+        }
+        
+        .flyabout {
+            width: 69px;
+            height: 65px;
+            display: inline-block;
+            margin: 81px 0;
+            text-indent: -9999px;
+            background: url(../img/hd-header-02.png);
+            background-repeat: no-repeat;
+        }
+        /* ここからABOUT */
+        
+        #top-about {
+            padding: 116px 0 61px 0;
+            background: url(../img/background-image-02.jpg);
+            text-align: center;
+        }
+        
+        .about-title {
+            margin-bottom: 16px;
+            text-align: center;
+            line-height: 1;
+            color: #fff;
+        }
+        
+        .about-title-en {
+            font-size: 48px;
+            display: block;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .about-tilte-jp {
+            font-size: 16px;
+            display: block;
+            font-weight: lighter;
+            margin-bottom: 40px;
+        }
+        
+        .about-txt {
+            width: 681px;
+            height: 192px;
+            text-align: center;
+        }
+        
+        .about-image {
+            margin-top: 60px;
+            overflow: hidden;
+        }
+        
+        .about-whatdocho {
+            width: 460px;
+            float: left;
+        }
+        
+        .about-whatdocho-txt {
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+        
+        .about-whatdocho-jp {
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+        
+        .about-kankodocho {
+            width: 460px;
+            float: right;
+        }
+        
+        .about-kankodocho-jp {
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+        
+        .about-whatdocho-lead,
+        .about-kankodocho-lead {
+            margin-bottom: 16px;
+        }
+        /* ここからEVENT */
+        
+        #top-event {
+            padding: 61px 0;
+            text-align: center;
+            background-color: #fff7f8;
+        }
+        
+        .event-title-en {
+            font-size: 48px;
+            display: block;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .event-tilte-jp {
+            font-weight: lighter;
+            display: block;
+            margin-bottom: 40px;
+        }
+        
+        .event-list {
+            list-style-type: none;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        
+        .event-list li {
+            float: left;
+            width: 28%;
+            height: 373px;
+            margin-right: 75px;
+            text-indent: -9999px;
+            background-position: top center;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+        
+        .event-list li:last-child {
+            margin-right: 0;
+        }
+        
+        .event-item01 {
+            background-image: url(../img/event-image-01.jpg);
+        }
+        
+        .event-item-02 {
+            background-image: url(../img/event-image-02.jpg);
+        }
+        
+        .event-item-03 {
+            background-image: url(../img/event-image-03.png);
+        }
+        /* ＢＵＴＴＯＮ */
+        
+        .btn {
+            display: inline-block;
+            color: #333;
+            border: 2px solid #e25a65;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        /* top-news */
+        
+        #top-news {
+            padding: 60px 0 61px 0;
+            background-color: #fff7f8;
+        }
+        
+        .news-title {
+            margin-bottom: 16px;
+            text-align: center;
+            line-height: 1;
+            color: #333;
+        }
+        
+        .news-title-en {
+            font-size: 48px;
+            display: block;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .news-tilte-jp {
+            font-size: 16px;
+            display: block;
+            font-weight: lighter;
+            margin-bottom: 40px;
+        }
+        
+        .news-list {
+            overflow: hidden;
+            width: 800px;
+            margin: 0 auto;
+        }
+        
+        .news-list dt {
+            float: left;
+            clear: both;
+            padding: 10px 0;
+        }
+        
+        .news-list dd {
+            padding: 10px 0 20px 150px;
+            border-bottom: 2px dotted #e25a65;
+        }
+        /* top-gallary */
+        
+        #top-gallary {
+            padding: 50px 0 61px 0;
+            background: url(../img/background-image-02.jpg);
+            text-align: center:
+        }
+        
+        .gallary-title {
+            margin-bottom: 16px;
+            text-align: center;
+            line-height: 1;
+            color: #fff;
+        }
+        
+        .gallary-title-en {
+            font-size: 48px;
+            display: block;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .gallary-tilte-jp {
+            font-size: 16px;
+            display: block;
+            font-weight: lighter;
+            margin-bottom: 40px;
+        }
+        
+        .gallary-list {
+            width: 940px;
+            margin: 0 auto;
+            font-size: 0;
+        }
+        
+        .gallary-list li {
+            width: 210px;
+            height: 100%;
+            display: inline-block;
+            margin: 0 25px 40px 0;
+            list-style-type: none;
+        }
+        
+        .gallary-list li:nth-child(4n) {
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+        /* top-access */
+        
+        #top-access {
+            padding: 50px 0 61px 0;
+            background-color: #fff7f8;
+            text-align: center:
+        }
+        
+        .access-title {
+            margin-bottom: 16px;
+            text-align: center;
+            line-height: 1;
+            color: #333;
+        }
+        
+        .access-title-en {
+            font-size: 48px;
+            display: block;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .access-tilte-jp {
+            font-size: 16px;
+            display: block;
+            font-weight: lighter;
+            margin-bottom: 40px;
+        }
+        
+        .about-access {
+            overflow: hidden;
+        }
+        
+        .access-image {
+            width: 400px;
+            height: 300px;
+            margin-right: 20px;
+            background: url(../img/access-image.png)no-repeat center center;
+            float: left;
+        }
+        
+        .access-text {
+            width: 520px;
+            height: 200px;
+            float: right;
+        }
+        /* #footer */
+        
+        #footer {
+            padding: 20px 0 40px 0;
+            background: url(../img/background-image-01.jpg)center center;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            margin-bottom: 30px;
+        }
+        
+        .footer-nav {
+            font-size: 0;
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        
+        .footer-nav li {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 16px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .footer-nav a:hover {
+            color: #f77e88;
+        }
+        
+        .sns-nav {
+            display: inline-block;
+        }
+        
+        .sns-nav li {
+            float: left;
+            list-style-type: none;
+            margin: 0 25px 30px 0;
+        }
+        
+        .sns-nav li:last-child {
+            float: left;
+            list-style-type: none;
+            margin-right: 0;
+        }
+        
+        .copyright {
+            color: #fff;
+        }
